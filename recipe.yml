@@ -27,6 +27,15 @@ config:
     ai_automators: '*'
     ai_ckeditor: '*'
   actions:
+    key.key.open_ai_key:
+      simpleConfigUpdate:
+        key_provider_settings:
+          key_value: ${ai_api_key}
+    ai_provider_openai.settings:
+      simpleConfigUpdate:
+        api_key: open_ai_key
+        moderation: true
+        host: ''
     ai.settings:
       simpleConfigUpdate:
         default_providers:
