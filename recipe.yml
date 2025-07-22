@@ -4,6 +4,7 @@ type: Varbase AI
 install:
   - node
   - options
+  - token
   - key
   - ai
   - ai_provider_openai
