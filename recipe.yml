@@ -9,6 +9,7 @@ install:
   - ai
   - ai_provider_openai
   - ai_automators
+  - varbase_recipes
 input:
   ai_api_key:
     data_type: string
