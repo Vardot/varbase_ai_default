@@ -1,6 +1,6 @@
 {
   "name": "drupal/varbase_ai_default",
-  "description": "A recipe to configure default AI modules, settings, and permissions in Varbase, enabling OpenAI integrations for alt-text generation, CKEditor enhancements, and various AI-powered features.",
+  "description": "Applies Varbase AI Base and every Varbase AI recipe in one step, with MariaDB as the vector database. For demos, and for sites that want the full Varbase AI stack.",
   "keywords": [
     "recipe",
     "Varbase recipes",
@@ -21,13 +21,5 @@
       "role": "Maintainer"
     }
   ],
-  "require": {
-    "drupal/core": "~11.4.0",
-    "drupal/token": "~1",
-    "drupal/varbase_recipes": "~1",
-    "drupal/ai": "~1.1.0",
-    "drupal/ai_image_alt_text": "~1",
-    "drupal/ai_provider_openai": "~1"
-  },
-  "version": "1.0.x-dev"
+  "version": "2.0.x-dev"
 }
