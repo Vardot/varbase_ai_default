@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.0.0] - 2026-11-16
+### Changed
+- First stable release of the 2.0.x line, with no code changes since 2.0.0-rc1 ([#3638646](https://www.drupal.org/i/3638646)).
+
 ## [2.0.0-rc1] - 2026-11-15
 ### Changed
 - Promote the 2.0.x line to release candidate, with no code changes since 2.0.0-alpha2 ([#3638290](https://www.drupal.org/i/3638290)).
@@ -24,7 +28,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Move the documentation to docs.varbase.vardot.com ([#3633015](https://www.drupal.org/i/3633015)).
 - Update `logo.png` to the new Varbase logo ([#3632506](https://www.drupal.org/i/3632506)).
 
-[Unreleased]: https://git.drupalcode.org/project/varbase_ai_default/-/compare/2.0.0-rc1...2.0.x
+[Unreleased]: https://git.drupalcode.org/project/varbase_ai_default/-/compare/2.0.0...2.0.x
+[2.0.0]: https://git.drupalcode.org/project/varbase_ai_default/-/compare/2.0.0-rc1...2.0.0
 [2.0.0-rc1]: https://git.drupalcode.org/project/varbase_ai_default/-/compare/2.0.0-alpha2...2.0.0-rc1
 [2.0.0-alpha2]: https://git.drupalcode.org/project/varbase_ai_default/-/compare/2.0.0-alpha1...2.0.0-alpha2
 [2.0.0-alpha1]: https://git.drupalcode.org/project/varbase_ai_default/-/compare/1.0.3...2.0.0-alpha1
